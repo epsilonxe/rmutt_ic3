@@ -43,7 +43,7 @@ Computing fundamentals, key applications such as Word Processor, (Microsoft Word
 | 4       | ซอฟต์แวร์คอมพิวเตอร์ |  [Lecture 4](./materials/lecture_04.pdf) <br> [Workshop 4](./materials/workshop_04.pdf) |
 | 5       | ระบบเครือข่ายคอมพิวเตอร์ |  [Lecture 5](./materials/lecture_05.pdf) <br> [Workshop 5](./materials/workshop_05.pdf) |
 | 6       | อินเทอร์เน็ตและบริการออนไลน์ |  [Lecture 6](./materials/lecture_06.pdf) <br> [Workshop 6](./materials/workshop_06.pdf) |
-| 7       | การสื่อสารและการทำงานร่วมกันออนไลน์ |  [Lecture 7](./materials/lecture_07.pdf) <br> [Workshop 7](./materials/workshop_07.pdf) |
+| 7       | การสื่อสารออนไลน์ |  [Lecture 7](./materials/lecture_07.pdf) <br> [Workshop 7](./materials/workshop_07.pdf) |
 | 8       | การรู้เท่าทันสื่อดิจิทัลและความปลอดภัยยุคดิจิทัล |  [Lecture 8](./materials/lecture_08.pdf) <br> [Workshop 8](./materials/workshop_08.pdf) |
 | 9       | การใช้  Word 365 |  [Lecture 9](./materials/lecture_09.pdf) <br> [Workshop 9](./materials/workshop_09.pdf) <br> [Workshop 10](./materials/workshop_10.pdf)|
 | 9       | การใช้  Excel 365 |  [Lecture 10](./materials/lecture_10.pdf) <br> [Workshop 11](./materials/workshop_11.pdf) <br> [Workshop 12](./materials/workshop_12.pdf) |
