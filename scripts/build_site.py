@@ -198,7 +198,7 @@ def build_chapters(sections: dict[str, str]) -> str:
         )
         cards.append(
             f'      <article class="chapter">\n'
-            f'        <span class="chapter__badge">{html.escape(badge)}</span>\n'
+            f'        <span class="chapter__badge">Chapter {html.escape(badge)}</span>\n'
             f'        <div class="chapter__title{(" th" if is_thai(title) else "")}">{inline_md(title)}</div>\n'
             f'        <div class="chapter__links">\n{btns}\n        </div>\n'
             f'      </article>'

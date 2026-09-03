@@ -231,15 +231,17 @@
     border-color: color-mix(in srgb, var(--accent) 40%, var(--border));
   }
   .chapter__badge {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px; height: 30px;
+    display: block;
+    align-self: stretch;
+    text-align: center;
+    padding: 0.32rem 0.6rem;
     border-radius: 9px;
     background: var(--accent-soft);
     color: var(--accent);
     font-weight: 700;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
   }
   .chapter__title { font-weight: 600; font-size: 1rem; line-height: 1.4; flex: 1; }
   .chapter__links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: auto; }

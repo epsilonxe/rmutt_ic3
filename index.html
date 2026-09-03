@@ -231,15 +231,17 @@
     border-color: color-mix(in srgb, var(--accent) 40%, var(--border));
   }
   .chapter__badge {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px; height: 30px;
+    display: block;
+    align-self: stretch;
+    text-align: center;
+    padding: 0.32rem 0.6rem;
     border-radius: 9px;
     background: var(--accent-soft);
     color: var(--accent);
     font-weight: 700;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
   }
   .chapter__title { font-weight: 600; font-size: 1rem; line-height: 1.4; flex: 1; }
   .chapter__links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: auto; }
@@ -377,7 +379,7 @@
     <h2>Class Materials</h2>
     <div class="chapter-grid">
       <article class="chapter">
-        <span class="chapter__badge">1</span>
+        <span class="chapter__badge">Chapter 1</span>
         <div class="chapter__title th">คอมพิวเตอร์และเทคโนโลยีสารสนเทศ</div>
         <div class="chapter__links">
           <a class="doc-link" href="./materials/lecture_01.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Lecture 1</a>
@@ -385,7 +387,7 @@
         </div>
       </article>
       <article class="chapter">
-        <span class="chapter__badge">2</span>
+        <span class="chapter__badge">Chapter 2</span>
         <div class="chapter__title th">องค์ประกอบของคอมพิวเตอร์</div>
         <div class="chapter__links">
           <a class="doc-link" href="./materials/lecture_02.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Lecture 2</a>
@@ -393,7 +395,7 @@
         </div>
       </article>
       <article class="chapter">
-        <span class="chapter__badge">3</span>
+        <span class="chapter__badge">Chapter 3</span>
         <div class="chapter__title th">ฮาร์ดแวร์และการเชื่อมต่ออุปกรณ์คอมพิวเตอร์</div>
         <div class="chapter__links">
           <a class="doc-link" href="./materials/lecture_03.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Lecture 3</a>
@@ -401,7 +403,7 @@
         </div>
       </article>
       <article class="chapter">
-        <span class="chapter__badge">4</span>
+        <span class="chapter__badge">Chapter 4</span>
         <div class="chapter__title th">ซอฟต์แวร์คอมพิวเตอร์</div>
         <div class="chapter__links">
           <a class="doc-link" href="./materials/lecture_04.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Lecture 4</a>
@@ -409,7 +411,7 @@
         </div>
       </article>
       <article class="chapter">
-        <span class="chapter__badge">5</span>
+        <span class="chapter__badge">Chapter 5</span>
         <div class="chapter__title th">ระบบเครือข่ายคอมพิวเตอร์</div>
         <div class="chapter__links">
           <a class="doc-link" href="./materials/lecture_05.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Lecture 5</a>
@@ -417,7 +419,7 @@
         </div>
       </article>
       <article class="chapter">
-        <span class="chapter__badge">6</span>
+        <span class="chapter__badge">Chapter 6</span>
         <div class="chapter__title th">อินเทอร์เน็ตและบริการออนไลน์</div>
         <div class="chapter__links">
           <a class="doc-link" href="./materials/lecture_06.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Lecture 6</a>
@@ -425,7 +427,7 @@
         </div>
       </article>
       <article class="chapter">
-        <span class="chapter__badge">7</span>
+        <span class="chapter__badge">Chapter 7</span>
         <div class="chapter__title th">การสื่อสารออนไลน์</div>
         <div class="chapter__links">
           <a class="doc-link" href="./materials/lecture_07.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Lecture 7</a>
@@ -433,7 +435,7 @@
         </div>
       </article>
       <article class="chapter">
-        <span class="chapter__badge">8</span>
+        <span class="chapter__badge">Chapter 8</span>
         <div class="chapter__title th">การรู้เท่าทันสื่อดิจิทัลและความปลอดภัยยุคดิจิทัล</div>
         <div class="chapter__links">
           <a class="doc-link" href="./materials/lecture_08.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Lecture 8</a>
@@ -441,7 +443,7 @@
         </div>
       </article>
       <article class="chapter">
-        <span class="chapter__badge">9</span>
+        <span class="chapter__badge">Chapter 9</span>
         <div class="chapter__title th">การใช้  Word 365</div>
         <div class="chapter__links">
           <a class="doc-link" href="./materials/lecture_09.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Lecture 9</a>
@@ -450,7 +452,7 @@
         </div>
       </article>
       <article class="chapter">
-        <span class="chapter__badge">9</span>
+        <span class="chapter__badge">Chapter 9</span>
         <div class="chapter__title th">การใช้  Excel 365</div>
         <div class="chapter__links">
           <a class="doc-link" href="./materials/lecture_10.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Lecture 10</a>
@@ -459,7 +461,7 @@
         </div>
       </article>
       <article class="chapter">
-        <span class="chapter__badge">9</span>
+        <span class="chapter__badge">Chapter 9</span>
         <div class="chapter__title th">การใช้  PowerPoint 365</div>
         <div class="chapter__links">
           <a class="doc-link" href="./materials/lecture_11.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Lecture 11</a>
@@ -517,7 +519,7 @@
     <span>RMUTT 09000001 · Computer and Information Technology Skills</span>
     <span>Lecturer: Akarate SINGTA</span>
     <span><a href="https://github.com/epsilonxe/rmutt_ic3" target="_blank" rel="noopener">Source on GitHub ↗</a></span>
-    <span style="margin-left:auto">Built from README.md on 2026-09-03</span>
+    <span style="margin-left:auto">Built from README.md on 2026-09-04</span>
   </div>
 </footer>
 
