@@ -18,8 +18,8 @@ Computing fundamentals, key applications such as Word Processor, (Microsoft Word
 | 23      | TUE   | 13:00 - 15:00 | 15:00 - 17:00 | รป 2-07  |
 | 24      | TUE   | 08:00 - 10:00 | 10:00 - 12:00 | รป 2-07  |
 | 26      | FRI   | 08:00 - 10:00 | 10:00 - 12:00 | รป 2-03  |
-| 45      | WED   | 08:00 - 10:00 | 10:00 - 12:00 | i-work 202  |
-| 46      | WED   | 13:00 - 15:00 | 15:00 - 17:00 | i-work 202  |
+| 45      | WED   | 08:00 - 10:00 | 10:00 - 12:00 | i-Work 202  |
+| 46      | WED   | 13:00 - 15:00 | 15:00 - 17:00 | i-Work 202  |
 
 ## Course Learning Outcomes
 
