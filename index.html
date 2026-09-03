@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<!--
+  This file is a TEMPLATE. The published page is index.html, which is generated
+  from README.md by scripts/build_site.py (run automatically by
+  .github/workflows/build-site.yml). Edit content in README.md, not in index.html.
+  Edit design/layout here in template.html.
+-->
 <html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8">
@@ -251,7 +257,6 @@
   }
   .doc-link:hover { background: var(--accent); color: var(--accent-contrast); border-color: var(--accent); text-decoration: none; }
   .doc-link svg { width: 14px; height: 14px; flex: none; }
-  .doc-link--lecture { }
 
   /* ---------- misc ---------- */
   .prose p { margin: 0 0 0.9rem; }
@@ -334,15 +339,13 @@
     <div class="card">
       <div class="table-scroll">
         <table>
-          <thead>
-            <tr><th>Section</th><th>Date</th><th>Lecture</th><th>Workshop</th><th>Location</th></tr>
-          </thead>
+          <thead><tr><th>SECTION</th><th>DATE</th><th>LECTURE</th><th>WORKSHOP</th><th>LOCATION</th></tr></thead>
           <tbody>
-            <tr><td>23</td><td>TUE</td><td>13:00 – 15:00</td><td>15:00 – 17:00</td><td class="th">รป 2-07</td></tr>
-            <tr><td>24</td><td>TUE</td><td>08:00 – 10:00</td><td>10:00 – 12:00</td><td class="th">รป 2-07</td></tr>
-            <tr><td>26</td><td>FRI</td><td>08:00 – 10:00</td><td>10:00 – 12:00</td><td class="th">รป 2-03</td></tr>
-            <tr><td>45</td><td>WED</td><td>08:00 – 10:00</td><td>10:00 – 12:00</td><td>i-work 202</td></tr>
-            <tr><td>46</td><td>WED</td><td>13:00 – 15:00</td><td>15:00 – 17:00</td><td>i-work 202</td></tr>
+          <tr><td>23</td><td>TUE</td><td>13:00 - 15:00</td><td>15:00 - 17:00</td><td class="th">รป 2-07</td></tr>
+          <tr><td>24</td><td>TUE</td><td>08:00 - 10:00</td><td>10:00 - 12:00</td><td class="th">รป 2-07</td></tr>
+          <tr><td>26</td><td>FRI</td><td>08:00 - 10:00</td><td>10:00 - 12:00</td><td class="th">รป 2-03</td></tr>
+          <tr><td>45</td><td>WED</td><td>08:00 - 10:00</td><td>10:00 - 12:00</td><td>i-work 202</td></tr>
+          <tr><td>46</td><td>WED</td><td>13:00 - 15:00</td><td>15:00 - 17:00</td><td>i-work 202</td></tr>
           </tbody>
         </table>
       </div>
@@ -373,7 +376,6 @@
   <div class="wrap">
     <h2>Class Materials</h2>
     <div class="chapter-grid">
-
       <article class="chapter">
         <span class="chapter__badge">1</span>
         <div class="chapter__title th">คอมพิวเตอร์และเทคโนโลยีสารสนเทศ</div>
@@ -382,7 +384,6 @@
           <a class="doc-link" href="./materials/workshop_01.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Workshop 1</a>
         </div>
       </article>
-
       <article class="chapter">
         <span class="chapter__badge">2</span>
         <div class="chapter__title th">องค์ประกอบของคอมพิวเตอร์</div>
@@ -391,7 +392,6 @@
           <a class="doc-link" href="./materials/workshop_02.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Workshop 2</a>
         </div>
       </article>
-
       <article class="chapter">
         <span class="chapter__badge">3</span>
         <div class="chapter__title th">ฮาร์ดแวร์และการเชื่อมต่ออุปกรณ์คอมพิวเตอร์</div>
@@ -400,7 +400,6 @@
           <a class="doc-link" href="./materials/workshop_03.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Workshop 3</a>
         </div>
       </article>
-
       <article class="chapter">
         <span class="chapter__badge">4</span>
         <div class="chapter__title th">ซอฟต์แวร์คอมพิวเตอร์</div>
@@ -409,7 +408,6 @@
           <a class="doc-link" href="./materials/workshop_04.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Workshop 4</a>
         </div>
       </article>
-
       <article class="chapter">
         <span class="chapter__badge">5</span>
         <div class="chapter__title th">ระบบเครือข่ายคอมพิวเตอร์</div>
@@ -418,7 +416,6 @@
           <a class="doc-link" href="./materials/workshop_05.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Workshop 5</a>
         </div>
       </article>
-
       <article class="chapter">
         <span class="chapter__badge">6</span>
         <div class="chapter__title th">อินเทอร์เน็ตและบริการออนไลน์</div>
@@ -427,7 +424,6 @@
           <a class="doc-link" href="./materials/workshop_06.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Workshop 6</a>
         </div>
       </article>
-
       <article class="chapter">
         <span class="chapter__badge">7</span>
         <div class="chapter__title th">การสื่อสารออนไลน์</div>
@@ -436,7 +432,6 @@
           <a class="doc-link" href="./materials/workshop_07.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Workshop 7</a>
         </div>
       </article>
-
       <article class="chapter">
         <span class="chapter__badge">8</span>
         <div class="chapter__title th">การรู้เท่าทันสื่อดิจิทัลและความปลอดภัยยุคดิจิทัล</div>
@@ -445,36 +440,32 @@
           <a class="doc-link" href="./materials/workshop_08.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Workshop 8</a>
         </div>
       </article>
-
       <article class="chapter">
         <span class="chapter__badge">9</span>
-        <div class="chapter__title th">การใช้ Word 365</div>
+        <div class="chapter__title th">การใช้  Word 365</div>
         <div class="chapter__links">
           <a class="doc-link" href="./materials/lecture_09.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Lecture 9</a>
           <a class="doc-link" href="./materials/workshop_09.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Workshop 9</a>
           <a class="doc-link" href="./materials/workshop_10.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Workshop 10</a>
         </div>
       </article>
-
       <article class="chapter">
         <span class="chapter__badge">9</span>
-        <div class="chapter__title th">การใช้ Excel 365</div>
+        <div class="chapter__title th">การใช้  Excel 365</div>
         <div class="chapter__links">
           <a class="doc-link" href="./materials/lecture_10.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Lecture 10</a>
           <a class="doc-link" href="./materials/workshop_11.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Workshop 11</a>
           <a class="doc-link" href="./materials/workshop_12.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Workshop 12</a>
         </div>
       </article>
-
       <article class="chapter">
         <span class="chapter__badge">9</span>
-        <div class="chapter__title th">การใช้ PowerPoint 365</div>
+        <div class="chapter__title th">การใช้  PowerPoint 365</div>
         <div class="chapter__links">
           <a class="doc-link" href="./materials/lecture_11.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Lecture 11</a>
           <a class="doc-link" href="./materials/workshop_13.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>Workshop 13</a>
         </div>
       </article>
-
     </div>
   </div>
 </section>
@@ -483,25 +474,23 @@
   <div class="wrap">
     <h2>Grading</h2>
     <div class="card">
-      <p class="th" style="margin-top:0">ให้เป็นไปตามประกาศมหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี เรื่อง เกณฑ์การวัดและประเมินผลการศึกษาระดับปริญญาตรี โดยการประเมินผลการศึกษาในแต่ละรายวิชากำหนดเป็นระดับคะแนน ค่าระดับคะแนนต่อหน่วยกิต และผลการศึกษา ดังต่อไปนี้</p>
+      <p class="th">ให้เป็นไปตามประกาศมหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี เรื่อง เกณฑ์การวัดและประเมินผลการศึกษาระดับปริญญาตรี โดยการประเมินผลการศึกษาในแต่ละรายวิชากำหนดเป็นระดับคะแนน ค่าระดับคะแนนต่อหน่วยกิต และผลการศึกษา ดังต่อไปนี้</p>
       <div class="table-scroll">
         <table class="grades">
-          <thead>
-            <tr><th class="th">ระดับคะแนน</th><th class="th">ค่าระดับคะแนนต่อหน่วยกิต</th><th class="th">ช่วงคะแนน</th></tr>
-          </thead>
+          <thead><tr><th class="th">ระดับคะแนน</th><th class="th">ค่าระดับคะแนนต่อหน่วยกิต</th><th class="th">ช่วงคะแนน</th></tr></thead>
           <tbody>
-            <tr><td>A</td><td>4.0</td><td>80–100</td></tr>
-            <tr><td>B+</td><td>3.5</td><td>75–79</td></tr>
-            <tr><td>B</td><td>3.0</td><td>70–74</td></tr>
-            <tr><td>C+</td><td>2.5</td><td>65–69</td></tr>
-            <tr><td>C</td><td>2.0</td><td>60–64</td></tr>
-            <tr><td>D+</td><td>1.5</td><td>55–59</td></tr>
-            <tr><td>D</td><td>1.0</td><td>50–54</td></tr>
-            <tr><td>F</td><td>0</td><td>0–49</td></tr>
+          <tr><td>A</td><td>4.0</td><td>80-100</td></tr>
+          <tr><td>B+</td><td>3.5</td><td>75-79</td></tr>
+          <tr><td>B</td><td>3.0</td><td>70-74</td></tr>
+          <tr><td>C+</td><td>2.5</td><td>65-69</td></tr>
+          <tr><td>C</td><td>2.0</td><td>60-64</td></tr>
+          <tr><td>D+</td><td>1.5</td><td>55-59</td></tr>
+          <tr><td>D</td><td>1.0</td><td>50-54</td></tr>
+          <tr><td>F</td><td>0</td><td>0-49</td></tr>
           </tbody>
         </table>
       </div>
-      <p class="th" style="margin-bottom:0">โดยนักศึกษาจะต้องได้รับสัญลักษณ์ D ขึ้นไป จึงจะผ่านเกณฑ์</p>
+      <p class="th">โดยนักศึกษาจะต้องได้รับสัญลักษณ์ D ขึ้นไป จึงจะผ่านเกณฑ์</p>
     </div>
     <div class="card prose">
       <p class="th">หากนักศึกษามีข้อสงสัย ข้องใจ หรือต้องการอุทธรณ์ในเรื่องการจัดกิจกรรมการเรียนการสอน รวมถึงการประเมินผลการเรียน สามารถแจ้งความประสงค์การอุทธรณ์โดยการเขียนใบคำร้องที่ ธุรการสาขา/ภาควิชา เพื่อพิจารณาดำเนินการต่อไป หากไม่ได้รับการแก้ไขปัญหาให้ติดต่อเขียนคำร้องที่ งานทะเบียนและวัดผล ฝ่ายวิชาการ คณะวิทยาศาสตร์และเทคโนโลยี เพื่อเสนอเรื่องดังกล่าวต่อคณะในการพิจารณาดำเนินการต่อไป</p>
@@ -515,7 +504,7 @@
     <div class="card">
       <ul class="ref-list">
         <li class="th">เอกสารประกอบการอบรม หลักสูตร “การพัฒนาทักษะการใช้คอมพิวเตอร์และเทคโนโลยีสารสนเทศ ตามมาตรฐาน IC3”</li>
-        <li class="th">หนังสือดิจิทัลการใช้เทคโนโลยีสารสนเทศสำหรับการจัดเก็บและวิเคราะห์ข้อมูล — <a href="https://touchpoint.in.th/book/it-for-data-collection-and-analysis/" target="_blank" rel="noopener">touchpoint.in.th</a></li>
+        <li class="th">หนังสือดิจิทัลการใช้เทคโนโลยีสารสนเทศสำหรับการจัดเก็บและวิเคราะห์ข้อมูล <a href="https://touchpoint.in.th/book/it-for-data-collection-and-analysis/" target="_blank" rel="noopener">https://touchpoint.in.th/book/it-for-data-collection-and-analysis/</a></li>
       </ul>
     </div>
   </div>
@@ -528,6 +517,7 @@
     <span>RMUTT 09000001 · Computer and Information Technology Skills</span>
     <span>Lecturer: Akarate SINGTA</span>
     <span><a href="https://github.com/epsilonxe/rmutt_ic3" target="_blank" rel="noopener">Source on GitHub ↗</a></span>
+    <span style="margin-left:auto">Built from README.md on 2026-09-04</span>
   </div>
 </footer>
 

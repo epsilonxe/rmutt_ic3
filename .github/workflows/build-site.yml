@@ -1,0 +1,41 @@
+name: Build site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'README.md'
+      - 'template.html'
+      - 'scripts/build_site.py'
+      - '.github/workflows/build-site.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: build-site
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Regenerate index.html
+        run: python scripts/build_site.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- index.html; then
+            echo "index.html unchanged — nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Regenerate index.html from README.md [skip ci]"
+          git push
